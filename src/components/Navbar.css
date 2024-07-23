@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
+
+*{
+    margin: 0;
+    padding:0;
+   
+}
+div.col{
+    padding: 0;
+}
+
+.menu{
+    width:"100px";
+    text-align:"center";
+     border:"1px solid red";
+}
+ 
+.box{
+    background-color:rgb(166, 171, 183);
+    
+}
+ .bg{
+    background-image: url('./images/dgi.jpg');
+} 
+
+.outer_div{
+    width: 100vw;
+}
+
+
+.fw-bold:hover{
+color: black !important;
+background-color: white;
+border-radius: 15px;
+
+
+
+}
+@media only screen and (max-width:578px){
+    span.navbar-brand{
+        width:60vw;
+    }
+}
+.main{
+    background-image: url('./images/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardin {
+    /* Set initial scaling */
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+
+    /* Other styles for your card */
+    /* For example: */
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cardin:hover {
+    transform: scale(1.1);
+}
+.explore{
+   margin-left: 90px;
+}
+/* .btn{
+    margin-left: 90px;
+} */
+.logo{
+ 
+ border-radius: 10px;
+}
+
+@media screen and (max-width:766px){
+    .explore{
+        margin-left: 60px;
+     }
+
+     .btn{
+        margin-left: 10px;
+    }
+        
+}

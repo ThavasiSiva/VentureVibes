@@ -1,0 +1,209 @@
+import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
+import falls1 from "../Images/falls1.jpg";
+import falls2 from "../Images/falls2.jpg";
+import falls3 from "../Images/falls3.jpg";
+import monkey1 from "../Images/monkey1.jpeg";
+import monkey2 from "../Images/monkey2.jpeg";
+import monkey3 from "../Images/monkey3.jpg";
+import vaidehi1 from "../Images/vaidehi1.jpg"
+import vaidehi2 from "../Images/vaidehi2.avif"
+import vaidehi3 from "../Images/vaigehi3.jpg"
+
+function Falls() {
+  return (
+    <div style={{ backgroundColor: "lightgreen" }}>
+      <Container fluid>
+        <Row>
+          <Col>
+            <h2 className="text-center mt-3" style={{ textDecoration: "underline" }}>kovai-kutralam</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={5} xs={12}>
+            <Carousel>
+              <Carousel.Item interval={1500}>
+                <img src={falls1}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={falls2}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={falls3}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+          <Col md={7} xs={12}>
+            <p className="mt-4 ms-2 ms-md-3 fs-5 " style={{ textAlign: "justify" }}>
+              Kovai Kutralam waterfalls in Coimbatore offer a captivating view
+              of the crystal clear water gushing down to the steep rock beds,
+              making enchanting sounds. Tourists describe the water as being
+              extremely cold and enveloped by the thick vegetation, which is
+              home to a plethora of rich flora and fauna.
+            </p>
+            <p className="ms-3">
+              <h5>More Details :</h5>
+              <p className="mt-3 ">
+                <span className="fw-medium">Timing :</span> 10 AM to 3:30 PM
+              </p>
+
+              <p>
+                <span className="fw-medium">Distance:</span> 35.3 km from
+                Coimbatore
+              </p>
+              <p>
+                <span className="fw-medium">Best Time to Visit:</span> March to
+                October
+              </p>
+              <p>
+                <span className="fw-medium">Things to Do:</span> Trekking,
+                hiking, sightseeing, photography, etc.
+              </p>
+            </p>
+          </Col>
+        </Row>
+        <hr style={{border:"2px solid black"}}/>
+        <Row>
+          <Col>
+            <h2
+              className="text-center mt-3"
+              style={{ textDecoration: "underline" }}
+            >
+              Monkey Falls
+            </h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={5} xs={12} className="mt-5 ">
+            <Carousel>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={monkey3}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={monkey1}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={monkey2}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+          <Col md={7} xs={12}>
+            <p className="mt-4 ms-2 ms-md-3 fs-5 " style={{ textAlign: "justify" }}>
+            If you want to witness the glory of nature, Monkey Falls, located near Coimbatore, is the one destination one cannot afford to miss. The waterfall is covered with spiky shrubs that enhance its beauty, making it attractive and tempting to swim amidst this nature's beauty.
+            </p>
+            <p className="ms-3">
+              <h5>More Details :</h5>
+              <p className="mt-3 ">
+                <span className="fw-medium">Timing :</span> 7 AM to 5 PM
+              </p>
+
+              <p>
+                <span className="fw-medium">Distance:</span> 73.8 km from Coimbatore
+              </p>
+              <p>
+                <span className="fw-medium">Best Time to Visit:</span> October to March
+              </p>
+              <p>
+                <span className="fw-medium">Things to Do:</span> Sightseeing, wildlife tour, photography, etc
+              </p>
+            </p>
+          </Col>
+        </Row>
+        <hr style={{border:"2px solid black"}}/>
+        <Row>
+          <Col>
+            <h2
+              className="text-center mt-3"
+              style={{ textDecoration: "underline" }}
+            >
+              Vaidehi Falls
+            </h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={5} xs={12} className="mt-5 ">
+            <Carousel>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={vaidehi1}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={vaidehi2}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item interval={1500}>
+                <img
+                  src={vaidehi3}
+                  className="d-block w-100 img-fluid"
+                  style={{ height: "300px" }}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+          <Col md={7} xs={12}>
+            <p className="mt-4 ms-2 ms-md-3 fs-5 " style={{ textAlign: "justify" }}>
+            If you want to witness the glory of nature, Monkey Falls, located near Coimbatore, is the one destination one cannot afford to miss. The waterfall is covered with spiky shrubs that enhance its beauty, making it attractive and tempting to swim amidst this nature's beauty.
+            </p>
+            <p className="ms-3">
+              <h5>More Details :</h5>
+              <p className="mt-3 ">
+                <span className="fw-medium">Timing :</span> 7 AM to 5 PM
+              </p>
+
+              <p>
+                <span className="fw-medium">Distance:</span> 73.8 km from Coimbatore
+              </p>
+              <p>
+                <span className="fw-medium">Best Time to Visit:</span> October to March
+              </p>
+              <p>
+                <span className="fw-medium">Things to Do:</span> Sightseeing, wildlife tour, photography, etc
+              </p>
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}
+
+export default Falls;

@@ -1,0 +1,29 @@
+
+*{
+  font-family: Titillium Web;
+}
+
+.orange {
+  color: #fa9c23;
+  
+}
+
+.yellow {
+  color: #fdcc0d;
+}
+
+.review_user {
+  font-size: 0.8rem;
+  color: grey;
+}
+.bkimage{
+  height: 200px;
+  width: 120px;
+  margin-left: 100px;
+}
+.bkclr{
+  background-color: peachpuff;
+}
+.paragraph{
+  color: rgb(77, 44, 44);
+}
